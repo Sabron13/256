@@ -4,33 +4,39 @@
 }
 
 body {
-  margin-left: 21.5%;
-  margin-right: auto;
+  color: #ffffff;
+  background-size: 100% 130%;
+  background-image: url("../img/supernova_splosion.jpg");
 }
 
 h1 {
-  margin-left: 33%;
-  font-family: sans-serif;
+  margin-left: 37%;
+  font-size: 60px;
+  font-family: 'SpaceAge';
 }
 
 #board {
+  margin: auto;
+  border-radius: 25px;
   height: 400px;
-  width: 800px;
-  background-color: #3399ff;
+  width: 775px;
+  background-color: rgba(51, 153, 255, 0.65);
   padding: 5px;
 }
 
 .cell {
-  height: 94px;
-  width: 191px;
-  background-color: #ffcc33;
+  border-radius: 25px;
+  font-family: 'SpaceAge';
+  border: 2px solid #ffcc33;
+  height: 90px;
+  width: 180px;
   display: inline-block;
   margin: 3px;
 }
 
 p {
-  margin: 38px;
+  margin: 16px;
   text-align: center;
-  font-size: 20px;
-  font-family: sans-serif;
+  font-size: 60px;
+  font-family: 'SpaceAge';
 }
